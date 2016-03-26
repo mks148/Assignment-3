@@ -1,0 +1,403 @@
+body {
+    overflow-x: hidden;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand {color: #f1f1f1;}
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus {color: #f1f1f1; background-color: #d65c3e;}
+
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+
+p {
+    font-size: 14px;
+    line-height: 1.75;
+
+}
+
+p.large {
+    font-size: 16px;
+}
+
+/*navbar css starts from here*/
+
+.navbar-collapse{
+     background: transparent;
+        border:none;
+}
+.navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        background: transparent;
+        border:none;
+    }
+
+
+
+    .navbar .nav li a {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white; !important;
+}
+
+
+
+.logoo a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+.logoo a:hover{
+	text-decoration: none;
+
+
+
+	}
+.logoo img{
+    margin-right:5px;
+}
+
+
+
+.navbar-default .navbar-toggle {
+  border-color: #737373;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #bababa;
+}
+
+
+@media(min-width:768px){
+
+.navbar-default.navbar-shrink {
+padding: 10px 0;
+background-color: #222;
+
+
+}
+
+
+
+}
+
+
+/*navbar for mobile version*/
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        background-color:#F6714E;
+        border:none;
+    }
+  .navbar .nav li{
+    padding-top: 5px;
+  }
+    .top-nav-collapse {
+        padding: 0;
+    }
+
+
+
+   }
+
+
+header {
+    text-align: center;
+    color: #fff;
+    background-attachment: fixed;
+    background-image: url(http://s18.postimg.org/strrlmiux/bgg.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+header .intro-text #one {
+    margin-bottom: 25px;
+    font-family: Segoe UI;
+    font-size: 22px;
+    font-style: bold;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+header .intro-text #two {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+
+
+
+
+
+
+
+@media(min-width:768px) {
+    header .intro-text {
+        padding-top: 350px;
+        padding-bottom:330px;
+
+    }
+
+
+
+    header .intro-text .intro-lead-in {
+        margin-bottom: 55px;
+        font-family: Segoe UI;
+        font-size: 60px;
+        font-weight: bold;
+        line-height: 50px;
+    }
+
+    header .intro-text .intro-heading {
+        margin-bottom:150px;
+        text-transform: uppercase;
+        font-family: Shruti;
+        font-size: 30px;
+        font-weight: regular;
+        line-height: 45px;
+    }
+}
+
+
+
+
+
+
+@media (min-width: 1300px) {
+
+    header .intro-text {
+        padding-top: 10px;
+        padding-bottom:300px;
+
+    }
+
+
+    header .intro-text .intro-lead-in {
+        margin-bottom: 40px;
+        font-family: Segoe UI;
+        font-size: 50px;
+        font-weight: bold;
+        line-height: 50px;
+    }
+
+    header .intro-text .intro-heading {
+        margin-bottom:80px;
+        text-transform: uppercase;
+        font-family: Shruti;
+        font-size: 25px;
+        font-weight: regular;
+        line-height: 45px;
+    }
+    }
+
+/*navbar ends here*/
+
+
+/* Footer css here*/
+.footer{
+    background-color: #292c2f;
+    padding:1.5em 0;
+    
+    
+}
+.footer p{
+    color: white;
+    margin: 0;
+     font-size: 20px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+.footer-left{
+    text-align:center;
+    padding-top: 10px;
+ }
+ .footer-links a{
+	display:inline-block;
+	text-decoration: none;
+	color: inherit;
+}
+/*intro text css*/
+.featurette-image {
+    width:350px;
+    height: 350px;
+    margin-top: 110px;
+}
+
+#intro{
+    font-family: Segoe UI;
+    font-size: 22px;
+    font-style: bold;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+/*Contact page cc*/
+#contact{
+    background: url('http://i.imgur.com/xZipqin.jpg');
+    
+     background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 90px;;
+    color: white;
+    height: 770px;
+
+}
+
+#contactform{
+   margin-top: 50px;
+}
+
+/* Portfolio page css starts here*/
+#portfolio{
+      background: url('http://i.imgur.com/6U8hBI6.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 90px;
+    
+}
+
+
+.fa-facebook{
+    padding:5px 20px;
+}
+
+.fa-twitter{
+    padding:5px 20px;
+}
+
+.fa-dribbble{
+    padding:5px 20px;
+}
+.fa-facebook:hover{
+color:white;
+}
+
+.fa-twitter:hover{
+color: rgb(51,204,255);
+}
+
+
+.fa-dribbble:hover{
+color:#ea4c89;
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+
+
+.bg{
+    background: url('http://i.imgur.com/6U8hBI6.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 30px;
+
+}
+#head{
+    color: white;
+    font-size: 28px;
+    padding-top:150px;
+    text-align: center;
+}
+
+.image1{
+    float: left;
+    padding-left: 150PX;
+    padding-top: 30PX;
+    
+}
+
+.image2{
+    float: left;
+    padding-left: 100PX;
+    padding-top: 30PX;
+    
+}
+
+.image3{
+    float: left;
+    padding-left: 100PX;
+    padding-top: 30PX;
+    
+}
+.image4{
+  clear: both;
+    padding-left: 150PX;
+    padding-top: 30PX;
+    
+}
+
+#work1{
+    color: white;
+    font-size:2em;
+    
+}
+#work2{
+    color: white;
+    font-size:2em;
+    
+}
+#work3{
+    color: white;
+    font-size:2em;
+    
+}
+#work4{
+    color: white;
+    font-size:2em;
+    
+}
+#work5{
+    color: white;
+    font-size:2em;
+    
+}
+
+/*portfolio css ends here*/
